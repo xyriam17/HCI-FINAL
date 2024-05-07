@@ -57,7 +57,7 @@
                                       <label  id="paymentMethod" class="form-label">NGITI GCash Information</label>
                                       <p>Organization Name: NGITI</p>
                                       <p>GCash Number: 09463406001</p>
-                                      <img src="assets/images/donate.png" alt="GCash QR Code" width="200">
+                                      <img src="{{ asset('images/gcash.jpeg') }}" alt="GCash QR Code" width="200">
                                   </div>
                                   <button type="submit">Donate</button>
                               </form>
