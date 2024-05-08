@@ -59,8 +59,7 @@
                                       <p>GCash Number: 09463406001</p>
                                       <img src="{{ asset('images/gcash.jpeg') }}" alt="GCash QR Code" width="200">
                                   </div>
-                                  <button type="submit">Donate</button>
-                              </form>
+                                  <button type="submit" class="btn btn-primary">Submit Donate</button>                              </form>
                             </div>
                         </div>
                     </div>

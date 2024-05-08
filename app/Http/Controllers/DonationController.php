@@ -12,11 +12,13 @@ class DonationController extends Controller
         // Validate the form data
         $validatedData = $request->validate([
             'fullname' => 'required|string|max:255',
-            'email' => 'required|email',
+            'email' => 'required|string|email',
             'gcash_number' => 'required|string|max:11',
             'amount' => 'required|numeric|min:0',
             'reference_number' => 'required|string|max:255',
         ]);
+
+        
 
         // Store the donation in the database
         $donation = new Donation();

@@ -1607,9 +1607,11 @@ p {
 }
 
 #donationModal .btn-primary {
-    background-color: #e91e63; /* Set background color for the submit button to red */
+    background: linear-gradient(to top, #77c2ff, #ffa6b1);/* Set background color for the submit button to red */
     border-color: #e91e63; /* Set border color for the submit button to red */
-     /* Align the submit button to the right */
+    color:#000;
+     /* Align t;he submit button to the right */
+     float: right;
 }
 
 /* NGITI GCASH INFORMATION styles */

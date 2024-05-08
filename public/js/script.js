@@ -73,3 +73,28 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+//email
+function validateAndSubmit() {
+  var emailInput = document.getElementById('emailInput').value;
+  var errorText = document.getElementById('errorText');
+
+  // Regular expression to check if the input is a valid email address
+  var emailRegex = /\S+@\S+\.\S+/;
+
+  if (!emailRegex.test(emailInput)) {
+    errorText.innerText = "Please enter a valid email address.";
+    return;
+  }
+
+  // If validation passes, clear any previous error message
+  errorText.innerText = "";
+
+  // If you want to send the email to the server for storage, you can do it here
+  // You can use XMLHttpRequest, fetch API, or any other method to send data to the server
+  // For demonstration purposes, I'll just log the email to console
+  console.log("Valid email: " + emailInput);
+
+  // If you want to submit the form after validation, uncomment the line below
+  document.getElementById('emailForm').submit();
+}
+

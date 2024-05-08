@@ -70,7 +70,7 @@
     <!--***** Nav Bar *****-->
     <nav class="navbar navbar-expand-lg">
       <a href="#title"
-        ><img src="{{ asset('images/logo.webp') }}" alt="HelpingHand_Logo" class="navbarlogo"
+        ><img src="{{ asset('images/logo.webp') }}" alt="Ngiti_Logo" class="navbarlogo"
       /></a>
      
 
@@ -158,7 +158,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email</label>
-                        <input type="text" class="form-control" id="email" name="email" required maxlength="255" placeholder="Enter Email" required>
+                        <input type="email" class="form-control" id="email" name="email" required maxlength="255" placeholder="Enter Email" required>
                     </div>
                     <div class="mb-3">
                         <label for="gcash_number" class="form-label">Gcash Number</label>
@@ -170,7 +170,7 @@
                     </div>
                     <div class="mb-3">
                       <label for="reference_number" class="form-label">Reference Number</label>
-                      <input type="number" class="form-control" id="reference_number" name="reference_number" maxlength="255placeholder="Enter Reference Number" required>
+                                    <input type="number" class="form-control" id="reference_number" name="reference_number" maxlength="255" placeholder="Enter Reference Number" required>
                   </div>
                     <hr />
                     <div class="mb-3 text-center">
@@ -179,8 +179,7 @@
                         <p>GCash Number: 09463406001</p>
                         <img src="{{ asset('images/gcash.jpeg') }}" alt="GCash QR Code" width="200">
                     </div>
-                    <button type="submit">Donate</button>
-                </form>
+                    <button type="submit" class="btn btn-primary">Submit Donate</button>                </form>
               </div>
                   </div>
               </div>
@@ -217,8 +216,8 @@
         <div class="sec QuickLinks">
           <h2>About Us</h2>
           <u1>
-            <li><a href="#title">Home</a></li>
-            <li><a href="#features">Mission</a></li>
+            <li><a href="{{ url('homepage') }}">Home</a></li>
+            <li><a href="{{ url('mission') }}">Mission</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#contact">Stay Contacted</a></li>
           </u1>
@@ -256,31 +255,26 @@
           <ul class="sci">
             <li>
               <a
-                href="https://www.facebook.com/soumita.biswas.961/"
+                href="https://www.facebook.com/ngitibogo"
                 target="_blank"
                 ><i class="fa fa-facebook-official" aria-hidden="true"></i
               ></a>
             </li>
 
             <li>
-              <a href="https://www.instagram.com/_.soumita._/" target="_blank"
+              <a href="https://www.instagram.com/ngitiassociation/?hl=fr" target="_blank"
                 ><i class="fa fa-instagram" aria-hidden="true"></i
               ></a>
             </li>
-
             <li>
-              <a
-                href="https://www.linkedin.com/in/soumita-biswas-88b0941ab/"
-                target="_blank"
-                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              <a href="https://www.youtube.com/channel/UCvDgPoY5PVZ24QV4bbCeFwA" target="_blank"
+                ><i class="fa fa-youtube" aria-hidden="true"></i
               ></a>
             </li>
 
-            <li>
-              <a href="mailto: sb2253@gmail.com" target="_blank"
-                ><i class="fa fa-envelope" aria-hidden="true"></i
-              ></a>
-            </li>
+            
+
+            
           </ul>
         </div>
       </div>
@@ -293,7 +287,7 @@
           <script>
             document.write(new Date().getFullYear());
           </script>
-          || Helping Hand. All rights reserved
+          || Ngiti. All rights reserved
         </p>
       </div>
     </footer>
