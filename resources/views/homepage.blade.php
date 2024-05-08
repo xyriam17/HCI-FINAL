@@ -38,7 +38,7 @@
                                   </div>
                                   <div class="mb-3">
                                       <label for="email" class="form-label">Email</label>
-                                      <input type="text" class="form-control" id="email" name="email"  placeholder="Enter Email" required >
+                                      <input type="email" class="form-control" id="email" name="email"  placeholder="Enter Email" required >
                                   </div>
                                   <div class="mb-3">
                                       <label for="gcash_number" class="form-label">Gcash Number</label>
