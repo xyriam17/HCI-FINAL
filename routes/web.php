@@ -2,6 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DonationController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\PhotoController;
+
+use App\Models\Photo;
+
+
 
 
 
@@ -30,7 +36,9 @@ Route::get('/previous', function () {
     return view('previous');
 });
 Route::get('/gallery', function () {
-    return view('gallery');
+    $photos = Photo::get();
+ 
+    return view('gallery',compact('photos'));
 });
 Route::get('/homepage', function () {
     return view('homepage');
@@ -41,8 +49,18 @@ Route::get('/accomplishment', function () {
 Route::get('/stayconnected', function () {
     return view('stayconnected');
 });
+Route::get('/uploadgallery', function () {
+    return view('upload-photo');
+});
 Route::post('/donate', [DonationController::class, 'processDonation'])->name('donate.store');
 Route::get('/thank_you', [DonationController::class, 'thankYou'])->name('thank_you');
+
+Route::post('submit-contact',[ContactController::class,'submitContact'])->name('submit-contact');
+
+Route::post('upload',[PhotoController::class,'upload'])->name('upload');
+
+
+
 
 
 

@@ -1,3 +1,5 @@
+@extends('home')
+@section('section')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +12,17 @@
             margin: 0;
             padding: 0;
             text-align: center;
+
         }
         h1 {
             color: #333;
             margin-top: 50px;
+            padding-top: 100px;
         }
         p {
             color: #666;
             margin-bottom: 50px;
+
         }
         .back-button {
             display: inline-block;
@@ -32,6 +37,7 @@
             margin-top: 20px;
             cursor: pointer;
             transition-duration: 0.4s;
+            margin-bottom: 100px;
         }
 
         .back-button:hover {
@@ -40,8 +46,10 @@
     </style>
 </head>
 <body>
+  
     <h1>Thank You for Donating!</h1>
     <p>Your donation has been received. We appreciate your generosity.</p>
     <a href="{{ url('homepage') }}" class="back-button">Go Back to Homepage</a>
 </body>
 </html>
+@endsection

@@ -85,8 +85,7 @@
     </div>
   </section>
 
-  <!--***** Features *****-->
-
+  
   
 
   <!-- ****   FAQ Section  **** -->
@@ -254,7 +253,6 @@
       </div>
     </div>
   </section>
-
   <!--***** Contact Us *****-->
 <style>
 .container {

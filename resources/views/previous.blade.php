@@ -107,65 +107,67 @@
             </div>
         </div>
   
-        <div class="flip-card">
-            <div class="flip-card-inner">
-            <div class="flip-card-front">
-                <br />
-                <h3>2018</h3>
-                <br>
-                <i id="icon3"><img src="images/j.webp" alt="" width="300px" height="225px"></i>
-                <p>Enlargement </p>
-            </div>
-  
-            <div class="flip-card-back">
-                <br />
-                <p>
-                  Ngiti constructed five classrooms with concrete floors, providing essential furniture such as tables, chairs, and blackboards. This allows for smaller class sizes, enhancing learning opportunities for students. Additionally, Ngiti ensured the provision of school supplies for all students.
-                </p>
-            </div>
-            </div>
-        </div>
-        </div>
-        <br>
+       
         <div class="cards">
           <div class="flip-card">
               <div class="flip-card-inner">
               <div class="flip-card-front">
                 <br>
-                <h3>2017</h3>
+                <h3>2018</h3>
                 <br>
-                  <i id="icon1"><img src="images/k.webp" alt="" width="300px" height="225"></i>
-                  <p>Health</p>
+                  <i id="icon1"><img src="images/j.webp" alt="" width="300px" height="225"></i>
+                  <p>Enlargement</p>
               </div>
     
               <div class="flip-card-back">
                   <br>
                   <br>
                   <p>
-                    This year, Ngiti focused on improving basic health conditions at the school. They built seven toilets in BCS3 over two months, reducing health risks such as dengue. Additionally, basic health supplies like toothbrushes and soap were provided. Ngiti also distributed school supplies to all 2500 students.
+                    Ngiti constructed five classrooms with concrete floors, providing essential furniture such as tables, chairs, and blackboards. This allows for smaller class sizes, enhancing learning opportunities for students. Additionally, Ngiti ensured the provision of school supplies for all students.
                   </p>
               </div>
               </div>
           </div>
-    
+    <br>
           <div class="flip-card">
               <div class="flip-card-inner">
               <div class="flip-card-front">
                 <br>
-                <h3>2016</h3>
+                <h3>2017</h3>
                   <br />
-                  <i id="icon2"><img src="images/l.webp" alt="" width="300px"></i>
-                  <p>Primary Needs </p>
+                  <i id="icon2"><img src="images/k.webp" alt="" width="300px" height="225"></i>
+                  <p>Health </p>
               </div>
     
               <div class="flip-card-back">    
                 <br>     
                  <p>
-                  NGITI started this year with the most important - school furniture and school supplies. Most children and families cannot afford school supplies. Thanks to a crowdfunding, the first aim of the association has been fulfilled. Chairs, tables and school supplies were bought. In addition, outdoor games and supplies were purchased to improve the learning environment of the children.
+                  This year, Ngiti focused on improving basic health conditions at the school. They built seven toilets in BCS3 over two months, reducing health risks such as dengue. Additionally, basic health supplies like toothbrushes and soap were provided. Ngiti also distributed school supplies to all 2500 students.
                   </p>
               </div>
               </div>
           </div>
+          <br>
+          <div class="flip-card">
+            <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <br />
+                <h3>2016</h3>
+                <br>
+                <i id="icon3"><img src="images/l.webp" alt="" width="300px" height="225px"></i>
+                <p>Primary Needs </p>
+            </div>
+  
+            <div class="flip-card-back">
+                <br />
+                <p>
+                  NGITI started this year with the most important - school furniture and school supplies. Most children and families cannot afford school supplies. Thanks to a crowdfunding, the first aim of the association has been fulfilled. Chairs, tables and school supplies were bought. In addition, outdoor games and supplies were purchased to improve the learning environment of the children.
+                </p>
+            </div>
+            </div>
+        </div>
+        </div>
+        <br>
 
 </section>
     
